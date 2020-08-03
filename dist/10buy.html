@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>结算中心</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/10buy.css">
+    <link rel="shortcut icon " type="images/x-icon" href="./favicon.ico">
+</head>
+<body>
+    <div class="bigimg-box"></div>
+    <!-- 头部 -->
+    <div class="settlement">
+        <div class="mask"></div>
+        <div class="header">
+            <div class="user_content">
+                <div class="logoContent">
+                    <img class="goindex" src="./img2/f2.png" alt="" style="height: 49px;">
+                </div>
+                <p class="logotit">结算中心</p>
+                <div class="userinfo">
+                    <a href="./03index.html"><span class="toIndex">返回首页</span></a>|
+                    <a href="javascript:;"><span class="username"></span></a>|
+                    <a href="javascript:;"><span class="order">我的订单</span></a>|
+                    <span class="logout">退出</span>
+                </div>
+            </div>
+        </div>
+        <!-- main -->
+        <main class="clear-fix container">
+            <div class="infoBox address">
+                <p class="labelTitle">收货地址</p>
+                <ul class="clear-fix dizhi_main infoDetail">
+                    <li class="addAddress">
+                        <div class="addIcon">+</div>
+                        <p class="addBtn">添加新地址</p>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="infoBox payWay">
+                <p class="labelTitle">支付方式</p>
+                <ul class="clear-fix payDetail">
+                    <li>在线支付</li>
+                </ul>
+            </div>
+            <div class="infoBox goodList">
+                <p class="labelTitle">送货清单
+                    <span class="backToCar fr goshopcar">返回修改购物车</span>
+                </p>
+                <div class="clear-fix listContent">
+                    <div class="fl clear-fix deliveryWay">
+                        <p class="deliveryTitle">配送方法</p>
+                        <ul class="clear-fix">
+                            <li class="selected">快递配送</li>
+                        </ul>
+                    </div>
+                    <div class="fl goodsListDetail">
+                        <ul class="productList">
+                            <li class="productListLi">
+                                <img src="./img2/f3.jpg" alt="">
+                                <div class="fr proInfo">
+                                    <div class="clear-fix">
+                                        <p class="fl proTitle">Y9000X 英特尔酷睿i915.6英寸高性能标压轻薄笔记本</p>
+                                        <span class="price"> ¥13999.00</span>
+                                        <span class="number"> X1</span>
+                                    </div>
+                                    <p class="proBrief">九代英特尔酷睿i9-9880H/Windows 10 家庭中文版/15.6英寸/32G/1T SSD+1T SSD/
+                                        集成显卡/深空灰</p>
+                                    <p class="reasonReturn">
+                                        <i>7</i>支持七天无忧退换
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="infoBox">
+                <p class="labelTitle">发票信息</p>
+                <ul class="clear-fix invoiceDetail">
+                    <li class="headertype">电子发票</li>
+                    <li class="headerContent">个人</li>
+                    <li>商品明细</li>
+                    <li class="edit"><a>修改 &gt; </a></li>
+                </ul>
+            </div>
+            <div class="infoBox promotionList">
+                <div class="prompt">
+                    <i class="promptIcon1">+</i>
+                    <span class="span1">使用优惠</span>
+                    <span class="span2">温馨提示：亲，若您在使用优惠券、优惠码、代金券、乐豆时遇到问题，可<a href="#" target="_blank">咨询客服解决</a></span>
+                    <i class="promptIcon2">?</i>
+                </div>
+            </div>
+            <div class="infoBox orderNote">
+                <p class="labelTitle">订单备注</p>
+                <div class="clear-fix invoiceDetail">
+                    <span>客服经理编码:</span>
+                    <input class="managerCode" type="text" placeholder="如果您联系过客服,可以填写其编码">
+                </div>
+                <div class="clear-fix invoiceDetail">
+                    <span>订单备注:</span>
+                    <textarea class="orderRemark" type="textarea" placeholder="告诉我您的特殊要求,限100字"></textarea>
+                </div>
+            </div>
+            <div class="settlementInfo">
+                <p class="IAgree">
+                    <input type="checkbox" checked id="">
+                    <span class="agreement_file">
+                        我同意<a href="#" target="_blank">《联想产品网络销售通用条款和条件》</a>
+                    </span>
+                </p>
+                <ul class="settlementList">
+                    <li>
+                        <span class="settlementCount">
+                            <span style="color:#f00">1</span> 件商品，
+                        </span>
+                        <span class="settlementListName">商品金额：</span>
+                        <span class="totalPrice settlementListPrice">￥13999.00</span>
+                    </li>
+                    <li>
+                        <span class="settlementListName">优惠：</span>
+                        <span class="settlementListPrice">-￥0.00</span>
+                    </li>
+                    <li>
+                        <span class="settlementListName">运费：</span>
+                        <span class="settlementListPrice">+￥0.00</span>
+                    </li>
+                    <li class="shiFuKuan">
+                        <span class="settlementListName">实付款：</span>
+                        <div class="actualPriceWrapper">
+                            <div class="settlementListPrice">￥13999.00</div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="submitInfo order_bottom_addreass">
+                    <div class="fl">
+                        <p>
+                            <span class="name"></span><span class="mobile"></span>
+                        </p>
+                        <p class="submitAddress"></p>
+                        <p></p>
+                    </div>
+                    <span class="fr submitBtn">提交订单</span>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- 后期品质 -->
+    <div class="pinzhi">
+        <div class="pinzhi_warp">
+            <img src="./img/41.png" alt="">
+        </div>
+    </div>
+    <!-- 尾部 -->
+    <footer>
+        <ul class="item clear-fix">
+            <li>
+                <a class="foot_top_title">购物指南</a>
+                <a href="./03index.html">服务商信息</a>
+                <a href="./03index.html">购买流程</a>
+                <a href="./01zhuce.html">注册登录</a>
+            </li>
+            <li>
+                <a class="foot_top_title">配送方法</a>
+                <a href="./07website.html">配送方法</a>
+                <a href="./07website.html">配送方式信息</a>
+                <a href="./07website.html">签收原则</a>
+                <a href="./07website.html">物理查询</a>
+            </li>
+            <li>
+                <a class="foot_top_title">支付方式</a>
+                <a href="./07website.html">分期支付</a>
+                <a href="./07website.html">支付方式</a>
+                <a href="./07website.html">支付问题</a>
+            </li>
+            <li>
+                <a class="foot_top_title">订单信息</a>
+                <a href="./07website.html">订单信息</a>
+                <a href="./07website.html">发票信息</a>
+                <a href="./07website.html">支付问题</a>
+            </li>
+            <li>
+                <a class="foot_top_title">售后服务</a>
+                <a href="./07website.html">售后服务总则</a>
+                <a href="./07website.html">24小时在线客服</a>
+                <a href="./07website.html">联想服务入口</a>
+                <a href="./07website.html">热门解决方案</a>
+                <a href="./07website.html">Lenovo Quick Fix工具</a>
+            </li>
+            <li>
+                <a class="foot_top_title">其他说明</a>
+                <a href="./07website.html">服务承诺</a>
+                <a href="./07website.html">账号安全</a>
+                <a href="./07website.html">手机产品购买须知</a>
+                <a href="./07website.html">环境信息</a>
+            </li>
+            <li>
+                <div>
+                    <h4>400-990-8888转4</h4>
+                    <span>周一到周日 9:00-21:00</span>
+                    <a href="#">
+
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <div class="foot_bot clear-fix">
+            <div class="foot_bot_con">
+                <div class="foot_bot_left fl">
+                    版权所有：1998-2020 联想集团
+                    <span>|</span>
+                    <a>法律公告</a><span>|</span>
+                    <a>隐私权政策</a><span>|</span>
+                    <a>产品安全</a>
+                </div>
+                <div class="foot_bot_right fr">
+                    <a>京ICP备11035381</a>
+                    <span>|</span>
+                    <i>京公网安备110108007970号</i>
+                    <span>|</span>
+                    <a>营业执照:91110108700000458B</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- 地址 -->
+    <div class="dialog taitou addAddress1" style="height: 420px; display:none;">
+        <p class="dialogTitle"><span class="address_dialogTitvarext">添加新地址</span>
+            <i class="closeDialogBtn" style="border: none;">×</i></p>
+        <div class="dislogContent addAddressContent">
+            <div class="clear-fix row marginTop">
+                <div class="clear-fix input-outline-x col11" style="position:relative">
+                    <input class="input-control input-outline left address_name ">
+                    <div class="input-label"><span class="requir">*</span>姓名</div>
+                    <span class="address_warningMsg" tag="name" style="display: none;"></span>
+                </div>
+                <div class="clear-fix input-outline-x col11 offsetLeft1 right ">
+                    <input class="input-control input-outline address_phone">
+                    <div class="input-label"><span class="requir">*</span>手机号</div>
+                    <span class="address_warningMsg" tag="phone" style="display: none;"></span>
+                </div>
+            </div>
+            <div class="addressSelect marginTop">
+                <div class="selectTitle address_address"><span class="requir">*</span>选择省/市/区</div>
+                <span class="address_warningMsg" tag="address" style="display: none;"></span>
+                <i class="closeAddressBtnIcon" style="border: none;">↓</i>
+            </div>
+            <div class="row detailAddress address_select marginTop" style="display: none;">
+                <div class="input-outline-x col11">
+                    <input class="input-control input-outline left ">
+                    <div class="input-label">
+                        选择省/市/区
+                    </div>
+                </div>
+                <!-- 手动选择地址的弹框 -->
+                <div class="selectAddressByself">
+                    <ul class="clear-fix areaInfo">
+                        <li class="address_select_provate active" tag="province" code="">
+                            <span class="sss"></span> <span class="ccc"></span> <span class="zzz">选择省份/自治区</span>
+                        </li>
+                        <li class="address_select_city" tag="city" code=""></li>
+                        <li class="address_select_county" tag="county" code=""></li>
+                        <li class="address_select_area" tag="town" code=""></li>
+                    </ul>
+                    <ul class="clear-fix areaContent" level="province">
+                       
+                    </ul>
+                    <div class="closeSelect" style="cursor:pointer;text-align:center;color:#999">
+                        关闭
+                    </div>
+                </div>
+            </div>
+            <div class="row adressRow marginTop">
+                <div class="input-outline-x col24 " style="position:relative;top:2px">
+                    <textarea style="resize:none;" class="input-control textarea-outline address_detailed_Address"
+                        cols="25"
+                        rows="3"></textarea>
+                    <div class="input-label"><span class="requir">*</span>详细地址</div>
+                    <span class="address_warningMsg" tag="allAddress" style="display: none;"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col11 left marginTop">
+                    <input type="checkbox" class="isDefault" latag="latag_pc_ordersubmit_address_defaultcheck"> 设为默认地址
+                </div>
+
+            </div>
+        </div>
+        <div class="dialogBtnGroup">
+            <span class="btn cancel">取消</span>
+            <span class="btn confirm">保存</span>
+        </div>
+    </div>
+    <!-- 支付 -->
+    <div class="pay">
+        <div class="guanbi">✖</div>
+        <ul class="zfxinxi">
+            <li>订单号：<span>26443246</span></li>
+            <li>收获信息：<span>收获地址</span></li>
+            <li>商品名称：<span>名称</span></li>
+            <li>发票信息：<span>电子发票 个人</span></li>
+        </ul>
+        <ul class="zhifujine">
+            <li>应付金额：</li>
+            <li class="zfprice">金额</li>
+            <li><a class="qrzf">确认支付</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+<script src="./js/jQ.js"></script>
+<script src="./js/cookie.js"></script>
+<script src="./js/10buy.js"></script>

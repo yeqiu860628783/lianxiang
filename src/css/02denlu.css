@@ -1,0 +1,295 @@
+body {
+    font-family: "微软雅黑";
+    background-color: #f7f7f7;
+}
+
+* {
+    box-sizing: content-box;
+    outline: none;
+}
+
+/* header */
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+header .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.header_warp {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.header_warp ul {
+    float: left;
+}
+
+.header_warp li {
+    float: left;
+    line-height: 49px;
+    font-size: 15px;
+    color: #8d8d8d;
+    margin-right: 22px;
+}
+
+.header_warp li a {
+    color: #8d8d8d;
+}
+
+.header_warp .phone {
+    float: right;
+    width: 30px;
+    height: 50px;
+    padding: 13.5px 0 13.5px 0px;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header_warp .phone img {
+    width: 23px;
+    height: 23px;
+}
+
+.denlu {
+    min-width: 1200px;
+    clear: both;
+}
+
+.denlu_main {
+    height: 589px;
+    background: url(../img/999.jpg) no-repeat 50%;
+    background-size: cover;
+}
+
+.denlu_info {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.login {
+    float: right;
+    margin-top: 32px;
+    margin-right: 21px;
+    width: 410px;
+    height: 525px;
+    background-color: #fff;
+    position: relative;
+}
+
+.login_title {
+    font-size: 24px;
+    line-height: 24px;
+    color: #424242;
+    font-weight: 700;
+    margin: 33px 36px 36px;
+}
+
+.ogin_box {
+    position: relative;
+    margin: 0 31px;
+}
+
+.login_input {
+    width: 100%;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.login_input input {
+    color: #424242;
+    width: 282px;
+    border: 1px solid #d6d6d6;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 14px;
+    font-size: 14px;
+    outline: 0;
+    padding-right: 50px;
+}
+
+.login_input i {
+    position: absolute;
+    right: 14px;
+    top: 17px;
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url(../img/cuo.png)no-repeat 50%;
+    cursor: pointer;
+}
+
+.login_mains {
+    margin: 14px 31px 0;
+}
+
+.login_mains input {
+    float: left;
+    margin-right: 5px;
+}
+
+.login_mains label {
+    display: block;
+    line-height: 14px;
+    color: #000;
+    font-size: 14px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.submit {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    width: 348px;
+    background-color: #e22319;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 10px 31px 0;
+}
+
+.login_mains .login_type {
+    float: left;
+    color: #ef1c22;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.login_others {
+    float: right;
+}
+
+.login_others {
+    float: right;
+}
+
+.login_others a {
+    border-right: 1px solid #a4a3a3;
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 14px;
+    float: left;
+    color: #757575;
+}
+
+.login_others a:nth-of-type(2) {
+    border-right: none;
+}
+
+.cooperation {
+    position: absolute;
+    left: 26px;
+    bottom: 0;
+    width: 358px;
+    height: 90px;
+}
+
+.cooperation-title {
+    text-align: center;
+    font-size: 14px;
+    color: #8c8c8c;
+    line-height: 14px;
+    height: 14px;
+}
+
+.cooperation-title span {
+    width: 137px;
+    height: 1px;
+    background-color: #a4a3a3;
+    float: left;
+    margin-top: 6px;
+}
+
+.cooperation-title em {
+    font-style: normal;
+    float: left;
+}
+
+.cooperation-items {
+    margin-top: 15px;
+    padding: 0 60px;
+}
+
+.cooperation-items a {
+    float: left;
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+    margin-left: 38px;
+}
+
+.cooperation-items a:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.cooperation-items a i {
+    display: block;
+    margin: 0 auto;
+    width: 31px;
+    height: 31px;
+}
+
+.cooperation-items a:nth-of-type(1) i {
+    background:
+        url(../img/qq.png) no-repeat 50%;
+}
+
+.cooperation-items a:nth-of-type(1):hover i {
+    background:
+        url(../img/qqh.png) no-repeat 50%;
+}
+
+.cooperation-items a:nth-of-type(2) i {
+    background:
+        url(../img/weibo.png) no-repeat 50%;
+}
+.cooperation-items a:nth-of-type(2):hover i {
+    background:
+        url(../img/weiboh.png) no-repeat 50%;
+}
+.cooperation-items a:nth-of-type(3) i {
+    background:
+        url(../img/weix.png) no-repeat 50%;
+}
+.cooperation-items a:nth-of-type(3):hover i {
+    background:
+        url(../img/weixh.png) no-repeat 50%;
+}
+.cooperation-items a:nth-of-type(4) i {
+    background:
+        url(../img/zf.png) no-repeat 50%;
+}
+.cooperation-items a:nth-of-type(4):hover i {
+    background:
+        url(../img/zh.png) no-repeat 50%;
+}
+.company {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+.company p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.company p a {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 17px;
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+}

@@ -1,0 +1,1223 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+body {
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+i {
+    border-left: 1px solid #b8b8b8;
+    height: 11px;
+    display: inline-block;
+    margin: auto 2px;
+}
+
+.settlement {
+    width: 100%;
+    min-height: 1000px;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+    background-color: #fff;
+    padding-top: 0px;
+    line-height: 48px;
+    border-bottom: solid 1px #d2d2d2;
+}
+
+.user_content {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.logoContent {
+    height: 50px;
+    float: left;
+}
+
+.logoContent img {
+    display: inline-block;
+}
+
+.logotit {
+    float: left;
+    margin-left: 15px;
+    font-size: 20px;
+    line-height: 48px;
+    height: 48px;
+}
+
+.userinfo {
+    float: right;
+}
+
+.userinfo span {
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+.userinfo a {
+    color: #000;
+}
+
+main {
+    width: 1200px;
+    height: 100%;
+    min-height: 500px;
+    padding: 47px 34px 0px 34px;
+    padding-top: 11px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+main .infoBox {
+    width: 100%;
+    padding-top: 36px;
+}
+
+main .labelTitle {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.80);
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 18px;
+    margin-bottom: 21px;
+}
+
+.address ul {
+    width: 100%;
+    height: 100%;
+}
+
+main ul .addAddress {
+    width: 270px;
+    height: 184px;
+    border: 1px solid #E2E2E2;
+    margin-right: 13px;
+    margin-bottom: 16px;
+    float: left;
+    padding: 22px 24px;
+    cursor: pointer;
+}
+
+main .addAddress .addIcon {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 43px;
+    background-color: rgb(233, 230, 230);
+    border-radius: 50%;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main .addAddress .addBtn {
+    text-align: center;
+    font-size: 14px;
+    color: #B3B3B3;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-top: 7px;
+}
+
+main ul li.addAddress:hover {
+    border: 1px solid #9c9c9c;
+}
+
+main ul li.addAddress:hover .addIcon {
+    background-color: #ccc;
+}
+
+main ul li.addAddress:hover .addBtn {
+    color: #9c9c9c;
+}
+
+main .payWay .labelTitle {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.80);
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 18px;
+    margin-bottom: 21px;
+}
+
+main .payWay .payDetail li {
+    border: 1px solid #FF0000;
+    color: #FF0000;
+    font-size: 12px;
+    letter-spacing: 0;
+    text-align: center;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+.container .labelTitle {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.80);
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 18px;
+    margin-bottom: 21px;
+}
+
+.container .labelTitle .backToCar {
+    font-size: 14px;
+    color: #757575;
+    letter-spacing: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.settlement .container .listContent {
+    width: 100%;
+    height: 100%;
+    background: #F7F7F7;
+    border: 1px solid #E9E9E9;
+}
+
+.settlement .container .deliveryWay {
+    width: 348px;
+    background: #F7F7F7;
+    padding: 16px;
+}
+
+.settlement .container .deliveryWay .deliveryTitle {
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.settlement .container .deliveryWay ul {
+    margin-bottom: 16px;
+}
+
+.settlement .container .deliveryWay li:not(.deliveryTitle) {
+    font-size: 12px;
+    color: #757575;
+    letter-spacing: 0;
+    width: 97px;
+    height: 28px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 12px;
+    border: 1px solid #CDCDCD;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-bottom: 12px;
+}
+
+.settlement .container .deliveryWay li.selected {
+    color: #FE0606;
+    border: 1px solid #FF0000;
+}
+
+.settlement .container .goodList .goodsListDetail {
+    width: 782px;
+    padding: 24px;
+    float: left;
+    min-height: 218px;
+    background-color: #fff;
+    border-left: 1px solid #E9E9E9;
+}
+
+.settlement .container .goodList .productList {
+    width: 100%;
+}
+
+.settlement .container .goodList .productList .productListLi {
+    border-bottom: 1px solid #E9E9E9;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    min-height: 130px;
+}
+
+.settlement .container .goodList .productList .productListLi:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.settlement .container .goodList .productList img {
+    display: inline-block;
+    width: 101px;
+    height: 101px;
+    object-fit: contain;
+    margin-bottom: 16px;
+    margin-left: 24px;
+}
+
+.settlement .container .goodList .productList .proInfo {
+    width: 562px;
+    height: 114px;
+    position: relative;
+}
+
+.settlement .container .goodList .productList .proTitle {
+    width: 283px;
+    max-height: 40px;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-right: 70px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.settlement .container .goodList .productList .price {
+    display: inline-block;
+    width: 129px;
+    overflow: hidden;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #FF0000;
+}
+
+.settlement .container .goodList .productList span {
+    margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #7F7F7F;
+    letter-spacing: 0;
+}
+
+.settlement .container .goodList .productList .proBrief {
+    width: 309px;
+    font-size: 12px;
+    color: #757575;
+    letter-spacing: 0;
+    line-height: 16px;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    max-height: 32px;
+}
+
+.reasonReturn {
+    color: #1B759B;
+    font-size: 12px;
+    margin-top: 9px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.reasonReturn i {
+    margin-right: 5px;
+    vertical-align: sub;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #116085;
+    color: #fff;
+    text-align: center;
+}
+
+.invoiceDetail li {
+    font-size: 12px;
+    color: #757575;
+    letter-spacing: 0;
+    text-align: center;
+    float: left;
+    margin-right: 25px;
+}
+
+.invoiceDetail li.headerContent {
+    color: #434242;
+    margin-right: 48px;
+}
+
+.invoiceDetail li.edit a {
+    font-size: 12px;
+    color: #FF0000;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.settlement .container .promotionList .prompt {
+    margin-bottom: 16px;
+}
+
+.settlement .container .promotionList .prompt .promptIcon1 {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: #FF0000;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.settlement .container .promotionList .prompt .span1 {
+    font-size: 18px;
+    color: #3C3C3C;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 14px;
+}
+
+.settlement .container .promotionList .prompt .span2 {
+    font-size: 12px;
+    color: #757575;
+    letter-spacing: 0;
+    line-height: 12px;
+    margin-left: 16px;
+}
+
+.settlement .container .promotionList .prompt .span2 a {
+    color: #f00;
+    position: relative;
+}
+
+.settlement .container .promotionList .prompt .promptIcon2 {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #f00;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.settlement .container .labelTitle {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.80);
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 18px;
+    margin-bottom: 21px;
+}
+
+.settlement .container .orderNote .invoiceDetail {
+    font-size: 12px;
+    color: #2F2F2F;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.settlement .container .orderNote .invoiceDetail span {
+    width: 80px;
+    display: inline-block;
+}
+
+.settlement .container .orderNote .invoiceDetail input.managerCode {
+    width: 294px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding: 0 10px;
+    border: none;
+    border: 1px solid #E2E2E2;
+    font-size: 12px;
+}
+
+.settlement .container .orderNote .invoiceDetail textarea.orderRemark {
+    width: 652px;
+    height: 82px;
+    line-height: 28px;
+    display: inline-block;
+    padding: 0 10px;
+    resize: none;
+    vertical-align: top;
+    border: none;
+    border: 1px solid #E2E2E2;
+    font-size: 12px;
+    outline: none;
+}
+
+.settlement .settlementInfo {
+    width: 100%;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.settlement .settlementInfo .IAgree {
+    font-size: 12px;
+    color: #757575;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: 12px;
+    margin-bottom: 25px;
+}
+
+.settlement .settlementInfo .IAgree .checked {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+    border: 1px solid transparent;
+    margin-top: -4px;
+}
+
+.settlement .settlementInfo .IAgree a {
+    color: #757575;
+}
+
+.settlement .settlementInfo .settlementList {
+    width: 100%;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #efefef;
+}
+
+.settlement .settlementInfo .settlementList li {
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #3C3C3C;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: 14px;
+    position: relative;
+}
+
+.settlement .settlementInfo .settlementList li .totalPrice {
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+
+.settlement .settlementInfo .settlementList li .settlementListPrice {
+    width: 180px;
+    display: inline-block;
+    color: #DF2625;
+    font-weight: 600;
+}
+
+.settlement .settlementInfo .settlementList li.shiFuKuan {
+    margin-top: 48px;
+}
+
+.settlement .settlementInfo .settlementList li .actualPriceWrapper {
+    width: 180px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.settlement .settlementInfo .settlementList li.shiFuKuan .settlementListPrice {
+    font-size: 24px;
+    color: #DF2625;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+
+.settlement .settlementInfo .submitInfo {
+    width: 100%;
+    height: 78px;
+    font-size: 14px;
+    color: #757575;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: left;
+}
+
+.settlement .settlementInfo .submitInfo .fl {
+    margin-top: 21px;
+}
+
+.settlement .settlementInfo .submitInfo .submitBtn {
+    width: 156px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #DF2625;
+    cursor: pointer;
+}
+
+
+
+
+/* 品质 */
+.pinzhi {
+    height: 209px;
+    background: #fff;
+    padding-bottom: 10px;
+}
+
+.pinzhi img {
+    margin: 0 auto;
+    width: 1200px;
+    height: 199px;
+}
+
+/* 尾部 */
+footer {
+    box-sizing: content-box;
+    background-color: #FBFBFB;
+    width: 100%;
+    color: #ccc;
+}
+
+footer .item {
+    width: 1270px;
+    margin: auto;
+    padding: 70px 0 70px 76px;
+    position: relative;
+}
+
+footer .item::after {
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    content: "";
+}
+
+footer .item li {
+    width: 152px;
+    float: left;
+}
+
+footer .item li a {
+    display: block;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 12px;
+    color: #757575;
+}
+
+footer .item li .foot_top_title {
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 18px;
+    font-weight: 600;
+    color: #424242;
+}
+
+footer .item li:nth-last-of-type(1) {
+    width: 273px;
+    border-left: 1px solid #ccc;
+    padding-left: 58px;
+    margin-left: 5px;
+}
+
+footer .item li:nth-last-of-type(1) h4 {
+    font-size: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #E1140A;
+    font-weight: bold;
+}
+
+footer .item li:nth-last-of-type(1) span {
+    font-size: 12px;
+    color: #757575;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 25px;
+}
+
+footer .item li:nth-last-of-type(1) a {
+    background: url(../img/zixun.png);
+    display: inline-block;
+    width: 139px;
+    height: 36px;
+}
+
+footer .foot_bot {
+    border-top: 1px solid #424141;
+    background: #272727;
+    box-sizing: content-box;
+}
+
+.foot_bot_con {
+    color: #757575;
+    width: 1200px;
+    margin: auto;
+    font-size: 12px;
+    line-height: 46px;
+}
+
+footer .foot_bot a {
+    font-size: 12px;
+    line-height: 46px;
+    color: #757575;
+}
+
+footer .foot_bot .foot_bot_left span {
+    display: inline-block !important;
+    margin: 0 6px;
+}
+
+footer .foot_bot .foot_bot_right i {
+    border-left: none;
+}
+
+.bigimg-box {
+    width: 100%;
+    height: 100%;
+    background: url(../img2/f1.jpg) no-repeat;
+    background-position: center top;
+    position: fixed;
+    z-index: -1;
+}
+
+.taitou {
+    width: 662px;
+    max-height: 550px;
+    display: none;
+    height: 550px;
+    padding-bottom: 134px;
+}
+
+.addAddress.dialog {
+    max-height: 430px;
+    height: 430px;
+}
+
+.dialog {
+    position: fixed;
+    width: 670px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 1001;
+    border: 1px solid #ccc;
+}
+
+.addAddress.dialog .dialogTitle {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
+}
+
+.dialog .dialogTitle {
+    height: 57px;
+    line-height: 57px;
+    padding: 0 24px;
+    font-size: 18px;
+    color: #434242;
+    position: relative;
+}
+
+.dialog .dialogTitle .closeDialogBtn {
+    cursor: pointer;
+    float: right;
+    color: #808080;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    right: 26px;
+}
+
+.addAddress.dialog .addAddressContent {
+    height: 280px;
+}
+
+.dialog .dislogContent {
+    text-align: center;
+    max-height: 400px;
+}
+
+.addAddressContent .row {
+    width: 580px;
+    text-align: left;
+    margin: auto;
+}
+
+.addAddressContent .marginTop {
+    margin-top: 14px;
+    clear: both;
+}
+
+.addAddress.dialog .addAddressContent div.marginTop:first-child {
+    margin-top: 40px;
+}
+
+.addAddressContent .row .col11 {
+    width: 283px;
+    display: inline-block;
+    float: left;
+}
+
+.addAddressContent .row .left {
+    float: left;
+    width: 100%;
+}
+
+.addAddressContent .input-label {
+    color: #757575;
+    position: absolute;
+    top: 0;
+    left: 17px;
+    line-height: 40px;
+    transform-origin: 0 0;
+    pointer-events: none;
+    transition: all .3s;
+    font-size: 16px;
+    font-weight: 400 !important;
+}
+
+.address_warningMsg {
+    background-color: #FEB5B5;
+    position: absolute;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 20px 0 12px;
+    margin-left: 10px;
+    border-radius: 1px;
+    top: -100%;
+    left: 0px;
+    display: none;
+}
+
+.addAddressContent .input-label {
+    color: #757575;
+    position: absolute;
+    top: 0;
+    left: 17px;
+    line-height: 40px;
+    transform-origin: 0 0;
+    pointer-events: none;
+    transition: all .3s;
+    font-size: 16px;
+    font-weight: 400 !important;
+}
+
+.addAddressContent .input-fill-x,
+.addAddressContent .input-outline-x,
+.addAddressContent .textarea-outline-x {
+    position: relative;
+}
+
+.addAddressContent .input-label .requir {
+    color: rgba(223, 38, 37, 1) !important;
+}
+
+.addAddressContent .input-outline-x input {
+    font-size: 16px;
+    width: 105%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 微软雅黑;
+    color: rgb(67, 66, 66) !important;
+    margin: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(225, 225, 225);
+    border-image: initial;
+}
+
+.addAddressContent .marginTop {
+    margin-top: 14px;
+    clear: both;
+}
+
+.addressSelect {
+    font-size: 16px;
+    color: #757575;
+    height: 40px;
+    line-height: 40px;
+    width: 580px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    font-weight: 400 !important;
+    text-align: left;
+}
+
+.addressSelect .selectTitle {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-family: 微软雅黑;
+    color: rgb(117, 117, 117);
+    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(225, 225, 225);
+    border-image: initial;
+    overflow: hidden;
+}
+
+.addressSelect .address_address .requir {
+    color: rgba(223, 38, 37, 1) !important;
+}
+
+.addressSelect i {
+    width: 12px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 8px;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+
+}
+
+.addAddressContent .marginTop {
+    margin-top: 14px;
+    clear: both;
+}
+
+.addAddressContent .row {
+    width: 580px;
+    text-align: left;
+    margin: auto;
+}
+
+.detailAddress {
+    position: relative;
+}
+
+.addAddressContent .row .col11 {
+    width: 283px;
+    display: inline-block;
+    float: left;
+}
+
+.addAddressContent .row .left {
+    float: left;
+    width: 100%;
+}
+
+.detailAddress.row .col11 {
+    width: 100%;
+}
+
+.addAddressContent .row .selectAddressByself {
+    border: 1px solid #DF2625;
+    /* width: 80.5%; */
+    width: 580px;
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    top: -40px;
+    padding: 24px 24px 24px 24px;
+}
+
+.addAddressContent .row .selectAddressByself .areaInfo li {
+    font-size: 16px;
+    color: #434242;
+    letter-spacing: 0;
+    margin-bottom: 8px;
+    float: left;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.addAddressContent .row .selectAddressByself .areaInfo li.active {
+    color: #DF2625;
+    border: none !important;
+}
+
+.addAddressContent .row .selectAddressByself .areaContent {
+    border-bottom: 1px solid #DADADA;
+    border-top: 1px solid #DADADA;
+    padding: 23px 0;
+    margin-bottom: 24px;
+}
+
+.addAddressContent .row .selectAddressByself .areaContent li {
+    float: left;
+    margin-right: 16px;
+    word-break: inherit;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #434242;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.addAddressContent .row .selectAddressByself .closeSelect {
+    font-size: 14px;
+}
+
+.addAddressContent .row {
+    width: 580px;
+    text-align: left;
+    margin: auto;
+}
+
+.addAddressContent .row .col24 {
+    margin-top: 10px;
+    width: 580px;
+    display: inline-block;
+}
+
+.addAddressContent textarea {
+    font-family: 微软雅黑;
+    font-size: 16px;
+    width: 100%;
+    height: 64px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    line-height: 30px;
+    padding-top: 5px;
+    color: rgb(67, 66, 66);
+    margin: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(225, 225, 225);
+    border-image: initial;
+}
+
+.addAddressContent .input-label {
+    color: #757575;
+    position: absolute;
+    top: 0;
+    left: 17px;
+    line-height: 40px;
+    transform-origin: 0 0;
+    pointer-events: none;
+    transition: all .3s;
+    font-size: 16px;
+    font-weight: 400 !important;
+}
+
+.addAddressContent .row .col11 {
+    width: 283px;
+    display: inline-block;
+    float: left;
+}
+
+.isDefault {
+    vertical-align: middle;
+}
+
+.addAddressContent .input-label .requir {
+    color: rgba(223, 38, 37, 1) !important;
+}
+
+.addAddress.dialog .addAddressContent div.marginTop:first-child {
+    margin-top: 40px;
+}
+
+.addAddressContent .row .left {
+    float: left;
+    width: 100%;
+}
+
+.addAddress.dialog .dialogBtnGroup {
+    width: 360px;
+    margin-left: 10px;
+}
+
+.dialog .dialogBtnGroup {
+    width: 344px;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dialog .dialogBtnGroup .confirm {
+    background-color: #DF2625;
+}
+
+.dialog .dialogBtnGroup .btn {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    float: left;
+    cursor: pointer;
+}
+
+.dialog .dialogBtnGroup .cancel {
+    background-color: #969696;
+    margin-right: 20px;
+}
+.settlement .mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.26);
+    z-index: 1;
+    zoom: 1;
+    display: none;
+}
+.addAddressContent .input-control:focus {
+    border: 1px solid rgba(223, 38, 37, 1);
+}
+.addAddressContent .input-control:focus+.input-label {
+    color: rgba(223, 38, 37, 1);
+    background: #fff;
+    transform: scale(0.8) translate(0, -10px);
+    padding: 0 5px;
+    left: 10px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.addAddressContent .input-label.notnone {
+    font-size: 12px;
+    color: #dadada;
+    background: #fff;
+    transform: scale(0.8) translate(0, -10px);
+    padding: 0 5px;
+    left: 10px;
+    line-height: 20px;
+}
+.settlement .container .infoDetail li.selected {
+    border: 1px solid #E12726;
+}
+.settlement .container .infoDetail li .customerName {
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 20px;
+    height: 38px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.settlement .container .infoDetail li .phoneNum {
+    font-size: 14px;
+    color: #757575;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 18px;
+    margin-bottom: 2px;
+}
+.settlement .container .infoDetail li .addressInfo {
+    font-size: 14px;
+    color: #757575;
+    letter-spacing: 0;
+    line-height: 21px;
+    height: 42px;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.settlement .container .infoDetail li .editAddress,
+.settlement .container .infoDetail li .delAddress {
+    margin-top: 20px;
+    color: #ff0000;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 14px;
+    display: none;
+}
+.pay {
+    width: 1000px;
+    height: 290px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    position: fixed;
+    top: 200px;
+    left: 250px;
+    z-index: 10;
+    border: 1px solid #ccc;
+}
+
+.guanbi {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    float: right;
+    margin: 5px 5px 0 0;
+}
+
+.zfxinxi {
+    float: left;
+    width: 785px;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.zfxinxi li {
+    line-height: 36px;
+    font-size: 16px;
+    color: #999;
+}
+
+.zhifujine {
+    float: right;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.zhifujine li {
+    text-align: right;
+    line-height: 36px;
+    font-size: 16px;
+    color: #999;
+}
+
+.zhifujine .zfprice {
+    font-size: 28px;
+    color: rgb(216, 53, 53);
+}
+
+.zhifujine li a {
+    width: 158px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    display: block;
+    background-color: #e22319;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
